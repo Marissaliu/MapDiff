@@ -59,7 +59,7 @@ We provide the configurations for model hyperparameters in `./conf` via [Hydra](
 
 **Mask-prior IPA pre-raining**
 ```
-$ python mask_ipa_pretrain.py --config-name=mask_pretrain coemt.use=${use_comet} comet.workspace=${your_workspace} dataset.train_dir=${train_data} dataset.val_dir=${val_data}
+$ python mask_ipa_pretrain.py --config-name=mask_pretrain comet.use=${use_comet} comet.workspace=${your_workspace} dataset.train_dir=${train_data} dataset.val_dir=${val_data}
 ```
 
 **Denoising diffusion network training**
